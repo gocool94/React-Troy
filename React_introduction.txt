@@ -1,0 +1,62 @@
+Components
+
+    React is all about Components
+
+    -   because all user interface are made up of Components
+
+        Reuability concepts and seperation of concerns( keeping our code base small)
+
+    How components are built?
+
+        -   Build your own custom HTML elements
+
+    Creating a new react project
+
+        -    npx create-react-app my-app
+        https://github.com/facebook/create-react-app#creating-an-app
+
+
+            npm install //to install the setup and packages
+
+            npm start // to start the service
+
+
+            //if ajv-keyword issue -> https://github.com/ajv-validator/ajv-keywords
+
+
+    Download it
+
+    Extract it
+
+    run npm install in the extracted folder
+
+    Run npm start to start the development server.
+
+
+
+    React code is just javascript code
+    index.js code is the first code that gets executed
+
+
+
+    INTRODUCING JSX:
+        -Code which is easy to write as a developer vs the one which we write as a code is transformed into
+        another type of lang in the browser
+        -   change the code in the file and check :
+        - we create a code component and its like a tree that we have to handle it
+        - just a javascript functions is called as component
+
+    Styling and importing data into js file
+
+    Outputing dynamic data with react:-
+        
+
+
+
+
+
+    
+
+
+
+        
