@@ -1,0 +1,53 @@
+Chapter 2:
+
+We have the static application lets make it more dynamic
+
+to add an event listener we call it the document in normal js code or get the element
+but in react we call it in the JS code
+
+//In ExpenseItem.js
+
+// <button onClick={() => {console.log("Clicked")}}>This is the button</button>
+
+create a const in same file
+
+ const Clickhandler = () => {
+        return console.log("Clicked");
+    }
+
+
+    <button onClick={() => {Clickhandler}>This is the button</button>
+
+
+
+Explanation of rendering of the components
+
+Introduction of states concept
+
+import React, {useState} from 'react';
+
+use state is a single piece of inbuilt function in react library
+
+its a react hook
+/////
+import React, {useState} from 'react';
+
+function ExpenseItem(props) {
+
+    const [title,SetTitle] =  useState(props.title)
+
+
+
+    const Clickhandler = () => {
+        SetTitle('Updated');
+        console.log('Title')
+        
+    }
+
+
+    //////
+
+
+Create a folder NewExpense
+
+
